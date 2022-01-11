@@ -26,7 +26,7 @@
   </head>
   
   <body>
-  	<div id="sign-in-link" style="position: absolute; top: 20px;right: 20px;"></div> 
+  	<div id="sign-in-link" style="position: absolute; top: 20px;right: 20px;"></div>
     <header>
       <div class="masthead-elements-row-1">
         <div class="element-left"></div>
@@ -40,7 +40,7 @@
       </div>
     </header>
     <section class="textured-section">
-      <h1>...Curated Coffee Components</h1>
+      <h1>Curated Coffee Components</h1>
       
 
       <ul class="products">
@@ -185,7 +185,7 @@
 		        event.stopPropagation()
 		    } else {
 		        // IE variant
-		        event.cancelBubble = true;
+		        event.cancelBubble = true
 		    }
 		}
 		
