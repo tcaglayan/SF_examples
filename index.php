@@ -13,20 +13,20 @@
     <meta name="salesforce-community" content="https://'talia-developer-edition.ap24.force.com/TCLogin">
     <meta name="salesforce-client-id" content="3MVG9fe4g9fhX0E5QbeE1lke8xjJgNL0AjDGYnf1lPafEBcIbZCKJA.yCe9RiAgHu.otEJjC6h0SqCS9yQQWh">
     <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
-    <meta name="salesforce-mode" content="<?php echo getenv('modal');?>">
-    <meta name="salesforce-target" content="#salesforce-login">
+    <meta name="salesforce-mode" content="modal">
+    <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
-    <meta name="salesforce-forgot-password-enabled" content="<?php echo getenv('true');?>">
-    <meta name="salesforce-self-register-enabled" content="<?php echo getenv('true');?>">
+    <meta name="salesforce-forgot-password-enabled" content="true">
+    <meta name="salesforce-self-register-enabled" content="true">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-    <meta name="salesforce-mask-redirects" content="<?php echo getenv('true');?>">
+    <meta name="salesforce-mask-redirects" content="true">
 	<link href="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
   
   <body>
-  	<div id="salesforce-login" style="background-color:powderblue; position: absolute; top: 20px;right: 20px;"></div> 
+  	<div id="sign-in-link" style="background-color:powderblue; position: absolute; top: 20px;right: 20px;"></div> 
 	  <div id="salesforce-login-2" style="background-color:powderblue;"></div> 
     <header>
       <div class="masthead-elements-row-1">
