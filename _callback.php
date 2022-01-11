@@ -16,7 +16,7 @@
     <meta name="salesforce-self-register-enabled" content="true">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-    <meta name="salesforce-mask-redirects" content="false">
+    <meta name="salesforce-mask-redirects" content="true">
 </head> 
 <body></body>    
 </html>
