@@ -21,7 +21,7 @@
     <meta name="salesforce-self-register-enabled" content="<?php echo getenv('true');?>">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-    <meta name="salesforce-mask-redirects" content="<?php echo getenv('false');?>">
+    <meta name="salesforce-mask-redirects" content="<?php echo getenv('true');?>">
 	<link href="https://<?php echo getenv('talia-developer-edition.ap24.force.com/TCLogin');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('talia-developer-edition.ap24.force.com/TCLogin');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
