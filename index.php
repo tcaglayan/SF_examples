@@ -10,11 +10,10 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 	
-    <meta name="salesforce-community" content="https://'talia-developer-edition.ap24.force.com/TCLogin">
+    <meta name="salesforce-community" content="https://'talia-developer-edition.ap24.force.com">
     <meta name="salesforce-client-id" content="3MVG9fe4g9fhX0E5QbeE1lke8xjJgNL0AjDGYnf1lPafEBcIbZCKJA.yCe9RiAgHu.otEJjC6h0SqCS9yQQWh">
     <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="<?php echo getenv('modal');?>">
-    <meta name="salesforce-namespace" content="https://mindful-badger-wazuaj-dev-ed.lightning.force.com">
     <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="<?php echo getenv('true');?>">
@@ -22,8 +21,8 @@
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('true');?>">
-	<link href="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
-    <script src="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+	<link href="https://talia-developer-edition.ap24.force.com/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
+    <script src="https://talia-developer-edition.ap24.force.com/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
   
   <body>
