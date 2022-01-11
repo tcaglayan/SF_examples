@@ -22,7 +22,7 @@
     <meta name="salesforce-self-register-enabled" content="true">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
-    <meta name="salesforce-mask-redirects" content="true">
+    <meta name="salesforce-mask-redirects" content="false">
 	<link href="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
