@@ -185,7 +185,7 @@
 		        event.stopPropagation()
 		    } else {
 		        // IE variant
-		        event.cancelBubble = true
+		        event.cancelBubble = true;
 		    }
 		}
 		
