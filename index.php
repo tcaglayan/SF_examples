@@ -26,8 +26,7 @@
   </head>
   
   <body>
-  	<div id="salesforce-login" style="position: absolute; top: 20px;right: 20px;"></div>
-	   <div id="salesforce-login"></div> 
+  	<div id="salesforce-login" style="background-color:powderblue; position: absolute; top: 20px;right: 20px;"></div> 
     <header>
       <div class="masthead-elements-row-1">
         <div class="element-left"></div>
