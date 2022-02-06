@@ -14,9 +14,8 @@
     <meta name="salesforce-client-id" content="3MVG9fe4g9fhX0E5QbeE1lke8xjJgNL0AjDGYnf1lPafEBcIbZCKJA.yCe9RiAgHu.otEJjC6h0SqCS9yQQWh">
     <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="modal">
-	<meta name="salesforce-namespace" content="<?php echo getenv('talia-developer-edition.ap24.force.com');?>">
-
-    <meta name="salesforce-target" content="https://talia-developer-edition.ap24.force.com/TCLogin">
+	
+    <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="true">
     <meta name="salesforce-self-register-enabled" content="true">
