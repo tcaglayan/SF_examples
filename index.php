@@ -14,8 +14,9 @@
     <meta name="salesforce-client-id" content="3MVG9aWdXtdHRrI3dug6SN7vaYLE9TIslqGA4Tgo0y8RTsG6fjOlGgfXiGCfb596pkad7H383hB_ixwo6CsEx">
     <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
     <meta name="salesforce-mode" content="modal">
-	
-    <meta name="salesforce-target" content="#sign-in-link">
+	<meta name="salesforce-namespace" content="preprod-birdlifeaustralia.cs74.force.com">
+
+    <meta name="salesforce-target" content="https://preprod-birdlifeaustralia.cs74.force.com/birdlifelogin">
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="true">
     <meta name="salesforce-self-register-enabled" content="true">
