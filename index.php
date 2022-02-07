@@ -5,32 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FIX, curated coffee components</title>
-
+	  
     <link href="reset.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
-	  
-	 <meta name="salesforce-community" content="https://<?php echo getenv('talia-developer-edition.ap24.force.com/TCLogin');?>">
-    <meta name="salesforce-target" content="https://<?php echo getenv('talia-developer-edition.ap24.force.com/TCLogin');?>">
+	
+    <meta name="salesforce-community" content="https://talia-developer-edition.ap24.force.com/TCLogin">
+    <meta name="salesforce-client-id" content="3MVG9fe4g9fhX0E5QbeE1lke8xjJgNL0AjDGYnf1lPafEBcIbZCKJA.yCe9RiAgHu.otEJjC6h0SqCS9yQQWh">
+    <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
+    <meta name="salesforce-mode" content="modal">
+	<meta name="salesforce-namespace" content="<?php echo getenv('talia-developer-edition.ap24.force.com');?>">
+
+    <meta name="salesforce-target" content="https://talia-developer-edition.ap24.force.com/TCLogin">
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="true">
     <meta name="salesforce-self-register-enabled" content="true">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="true">
-	  
-   <!-- <meta name="salesforce-community" content="https://preprod-birdlifeaustralia.cs74.force.com/birdlifelogin"> -->
-    <meta name="salesforce-client-id" content="3MVG9fe4g9fhX0E5QbeE1lke8xjJgNL0AjDGYnf1lPafEBcIbZCKJA.yCe9RiAgHu.otEJjC6h0SqCS9yQQWh">
-    <meta name="salesforce-redirect-uri" content="https://simplesampletee.herokuapp.com/_callback.php">
-    <meta name="salesforce-mode" content="<?php echo getenv('modal');?>">
-    <!-- <meta name="salesforce-namespace" content="preprod-birdlifeaustralia.cs74.force.com">   -->
-    <meta name="salesforce-target" content="#sign-in-link">
-    <meta name="salesforce-save-access-token" content="true">
-    <meta name="salesforce-forgot-password-enabled" content="<?php echo getenv('true');?>">
-    <meta name="salesforce-self-register-enabled" content="<?php echo getenv('true');?>">
-    <meta name="salesforce-login-handler" content="onLogin">
-    <meta name="salesforce-logout-handler" content="onLogout">
-    <meta name="salesforce-mask-redirects" content="<?php echo getenv('true');?>">
 	<link href="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://talia-developer-edition.ap24.force.com/TCLogin/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
@@ -131,7 +123,6 @@
       </div>
 
     </footer>
-	
 
 	
 	<script>
